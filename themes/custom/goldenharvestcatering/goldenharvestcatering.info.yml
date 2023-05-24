@@ -10,11 +10,11 @@ libraries:
   - goldenharvestcatering/global-styles
   - goldenharvestcatering/aos-animate
 #Libraries override
-libraries-override:
-  restaurant_zymphonies_theme/bootstrap:
-    css:
-      theme:
-        includes/bootstrap/css/bootstrap.min.css: css/bootstrap.min.css
+# ibraries-override:
+#   restaurant_zymphonies_theme/bootstrap:
+#     css:
+#       theme:
+#         includes/bootstrap/css/bootstrap.min.css: css/bootstrap.min.cssl
 
 regions:
   #Header

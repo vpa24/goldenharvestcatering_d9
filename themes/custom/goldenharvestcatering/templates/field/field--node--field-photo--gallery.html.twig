@@ -18,11 +18,11 @@
 			<div{{ attributes.addClass(classes, ['field__items', 'row']) }}>
 			{% for item in items %}
 				{% if loop.index % 3 == 0 %}
-					<div{{ item.attributes.addClass(['field__item', 'col-lg-4 col-md-6 col-sm-12 pb-3']) }} data-aos="fade-down-right" data-aos-delay="1300">{{ item.content }}</div>
+					<div{{ item.attributes.addClass(['field__item', 'col-xs-12 col-sm-6 col-lg-4 pb-3']) }} data-aos="fade-down-right" data-aos-delay="1300">{{ item.content }}</div>
 				{% elseif loop.index % 3 == 1 %}
-					<div{{ item.attributes.addClass(['field__item', 'col-lg-4 col-md-6 col-sm-12 pb-3']) }} data-aos="fade-down-left" data-aos-delay="300">{{ item.content }}</div>
+					<div{{ item.attributes.addClass(['field__item', 'col-xs-12 col-sm-6 col-lg-4 pb-3']) }} data-aos="fade-down-left" data-aos-delay="300">{{ item.content }}</div>
 				{% else %}
-					<div{{ item.attributes.addClass(['field__item', 'col-lg-4 col-md-6 col-sm-12 pb-3']) }}  data-aos="flip-up" data-aos-delay="800">{{ item.content }}</div>
+					<div{{ item.attributes.addClass(['field__item', 'col-xs-12 col-sm-6 col-lg-4 pb-3']) }}  data-aos="flip-up" data-aos-delay="800">{{ item.content }}</div>
 				{% endif %}
 			{% endfor %}
 			</div>
