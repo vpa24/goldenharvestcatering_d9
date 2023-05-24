@@ -1,0 +1,257 @@
+@font-face {
+  font-family: "Playball"; /*a name to be used later*/
+  src: url("./../../fonts/Playball-Regular.ttf"); /*URL to font*/
+}
+@font-face {
+  font-family: "DobkinScript"; /*a name to be used later*/
+  src: url("./../../fonts/DobkinScript.ttf"); /*URL to font*/
+}
+@font-face {
+  font-family: "Adine Kirnberg"; /*a name to be used later*/
+  src: url("./../../fonts/Adine Kirnberg.ttf"); /*URL to font*/
+}
+body,
+button,
+input,
+select,
+textarea {
+  color: #666666;
+  line-height: 1.6;
+  font-size: 100% !important;
+}
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset {
+  margin-bottom: 10px;
+}
+ul {
+  list-style: disc;
+  font-size: 15px !important;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.region-header .brand a {
+  font-size: 19px;
+}
+.node__content ul,
+ol {
+  margin: 0 0 1.5em 2em;
+  margin-top: 0px;
+  margin-bottom: 1.5em;
+  margin-left: 2em;
+  font-size: 15px !important;
+}
+.catering-title {
+  margin-top: 10px;
+}
+.catering-title,
+.deluxe-title,
+.bbq-title,
+.engagement-title,
+.fiesta-title,
+.italian-title,
+.american-title,
+.american-con-title,
+.asian-title,
+.authentic-title,
+.classic-title,
+.hawaii-title {
+  font-family: Playball;
+  font-size: 30px;
+  font-weight: bold;
+  color: #b22222;
+  margin-left: 200px;
+}
+.catering {
+  background-image: url("./../../content_images/catering.jpg");
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  max-width: 1000px;
+}
+.catering-menu {
+  margin-left: 300px !important;
+  margin-top: 15px !important;
+}
+.body-menu {
+  font-family: Playball;
+  font-size: 18px;
+}
+.menu-lunch {
+  background-image: url("./../../content_images/lunch_bg1.jpg");
+  background-color: #cccccc;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  max-width: 1000px;
+}
+.menu-deluxe {
+  background-image: url("./../../content_images/deluxe_bg1.jpg");
+  background-color: #cccccc;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  max-width: 910px;
+}
+.menu-asian_delight {
+  background-image: url("./../../content_images/asian_delight_bg1.jpg");
+  background-color: #cccccc;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  max-width: 1000px;
+}
+.menu-american_continental {
+  background-image: url("./../../content_images/american_continental_bg1.jpg");
+  background-color: #cccccc;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  max-width: 1000px;
+}
+.menu-bbq {
+  background-image: url("./../../content_images/bbq_bg3.jpg");
+  background-color: #cccccc;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  max-width: 1000px;
+}
+.menu-fiesta-mexicana {
+  background-image: url("./../../content_images/fiesta_mexicana_bg2.jpg");
+  background-color: #cccccc;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  max-width: 1000px;
+}
+.menu-italian_touch {
+  background-image: url("./../../content_images/italian_touch_bg2.jpg");
+  background-color: #cccccc;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  max-width: 1000px;
+}
+.menu-american_traditional {
+  background-image: url("./../../content_images/american_traditional_bg1.jpg");
+  background-color: #cccccc;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  max-width: 1000px;
+}
+.menu-authentic_vietnamese {
+  background-image: url("./../../content_images/authentic_vietnamese_bg1.jpg");
+  background-color: #cccccc;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  max-width: 1000px;
+}
+.menu-classic_delight {
+  background-image: url("./../../content_images/classic_delight_bg1.jpg");
+  background-color: #cccccc;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  max-width: 910px;
+}
+.menu-hawaii_luau {
+  background-image: url("./../../content_images/hawaii_luau_bg1.jpg");
+  background-color: #cccccc;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  max-width: 910px;
+}
+.boxed_meal_menu {
+  background-image: url("./../../content_images/boxed_meal_menu2.jpg");
+  background-color: #cccccc;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  max-width: 910px;
+}
+.add-title {
+  font-size: 24px;
+  color: #666666;
+  font-weight: bold;
+}
+.menu-title,
+.menu-title2 {
+  font-family: DobkinScript, Verdana;
+  color: #000080;
+  font-weight: bold;
+  font-size: 32px;
+}
+.menu-title {
+  margin-left: 180px;
+}
+.additional_section {
+  margin-left: 200px;
+}
+tbody tr:hover,
+tbody tr:focus {
+  background: none;
+  border-bottom: none !important;
+}
+tbody tr {
+  border-bottom: none !important;
+}
+tbody td {
+  padding: 5px 10px;
+}
+.contact-title {
+  font-family: DobkinScript;
+  font-weight: bold;
+  font-size: 55px;
+  color: #ff8c00;
+}
+.rtecenter {
+  text-align: center;
+}
+.faq-question {
+  padding-top: 15px;
+  padding-left: 20px;
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: DobkinScript;
+}
+.faq-ul-questions-top {
+  list-style: decimal;
+  font-size: 15px;
+  font-weight: bold;
+  color: #b61f10;
+}
+li a.active {
+  color: #000;
+}
+.policy-title {
+  font-family: Adine Kirnberg;
+  font-size: 53px;
+  font-weight: bold;
+  color: #191970;
+}
+@keyframes enter-animation {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .image-animation {
+    animation: enter-animation 0.8s 1;
+  }
+}

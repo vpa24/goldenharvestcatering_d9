@@ -1,0 +1,13 @@
+global-styles:
+  css:
+    theme:
+      css/style.css: {}
+  js:
+    js/animation.js: {}
+aos-animate:
+  css:
+    base:
+      "https://unpkg.com/aos@2.3.1/dist/aos.css": { type: external }
+  js:
+    "https://unpkg.com/aos@2.3.1/dist/aos.js": { type: external }
+    js/animation.js: {}
