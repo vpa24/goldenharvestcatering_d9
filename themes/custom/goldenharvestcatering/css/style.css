@@ -243,6 +243,14 @@ li a.active {
 .region-header .brand a img {
   height: 50px;
 }
+.icon {
+  display: flex !important;
+  justify-content: flex-end;
+}
+.icon .fas {
+  margin-right: 10px;
+  line-height: unset !important;
+}
 @keyframes enter-animation {
   0% {
     transform: translateY(100px);
