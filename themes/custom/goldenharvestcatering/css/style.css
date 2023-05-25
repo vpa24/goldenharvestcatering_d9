@@ -240,6 +240,9 @@ li a.active {
   font-weight: bold;
   color: #191970;
 }
+.region-header .brand a img {
+  height: 50px;
+}
 @keyframes enter-animation {
   0% {
     transform: translateY(100px);
@@ -253,5 +256,17 @@ li a.active {
 @media (prefers-reduced-motion: no-preference) {
   .image-animation {
     animation: enter-animation 0.8s 1;
+  }
+}
+
+@media (min-width: 767px) {
+  .main-menu {
+    background: #000;
+    border-bottom: 0px !important;
+  }
+  .region-contact-email p a {
+    padding: 0;
+    display: block;
+    color: #fff !important;
   }
 }
