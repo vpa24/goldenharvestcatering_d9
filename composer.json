@@ -22,6 +22,7 @@
         "drupal/core-recommended": "^9.5",
         "drupal/core-vendor-hardening": "^9.5",
         "drupal/dropzonejs": "^2.8",
+        "drupal/fontawesome": "^2.25",
         "drupal/media_bulk_upload": "^3.0",
         "drupal/pathauto": "^1.11",
         "drupal/restaurant_zymphonies_theme": "^2.0",
