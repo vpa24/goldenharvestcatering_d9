@@ -75,7 +75,7 @@
   <tbody>
     <tr>
       <th {{content_attributes.addClass("text-center")}}>
-        {{ label }}
+        <a href={{content.field_link_to_menu[0]['#url']|render}}>{{ label }}</a>
       </th>
     </tr>
     {% for item in content.field_dish_name['#items'].getValue() %}
