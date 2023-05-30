@@ -16,6 +16,7 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "drupal/block_node": "^2.0",
         "drupal/ckeditor": "^1.0",
         "drupal/colorbox": "^2.0",
         "drupal/core-composer-scaffold": "^9.5",
@@ -28,6 +29,7 @@
         "drupal/mix": "^1.4",
         "drupal/pathauto": "^1.11",
         "drupal/restaurant_zymphonies_theme": "^2.0",
+        "drupal/tara": "^10.0",
         "drupal/telephone_validation": "^2.4",
         "drupal/webform": "^6.1"
     },

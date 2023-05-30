@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bff083ea20b368382ce924bdec0305a4",
+    "content-hash": "7131b226e7769a8dd40729821b802e7f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -520,6 +520,54 @@
             },
             "abandoned": "roave/better-reflection",
             "time": "2022-05-31T18:46:25+00:00"
+        },
+        {
+            "name": "drupal/block_node",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/block_node.git",
+                "reference": "2.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/block_node-2.0.0.zip",
+                "reference": "2.0.0",
+                "shasum": "8cec3a445aa7ca4d87c8d6f5dd9189d872dea824"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.0",
+                    "datestamp": "1633536739",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "tanc",
+                    "homepage": "https://www.drupal.org/user/64430"
+                }
+            ],
+            "description": "A block type which displays the current node (or a specific node) in a block in the specified view mode",
+            "homepage": "https://www.drupal.org/project/block_node",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/block_node",
+                "issues": "https://www.drupal.org/project/issues/block_node"
+            }
         },
         {
             "name": "drupal/ckeditor",
@@ -1508,6 +1556,50 @@
             "homepage": "https://www.drupal.org/project/restaurant_zymphonies_theme",
             "support": {
                 "source": "https://git.drupalcode.org/project/restaurant_zymphonies_theme"
+            }
+        },
+        {
+            "name": "drupal/tara",
+            "version": "10.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/tara.git",
+                "reference": "10.0.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/tara-10.0.4.zip",
+                "reference": "10.0.4",
+                "shasum": "f291b60a7468fc9f9c69a727f517a21ad9ad4873"
+            },
+            "require": {
+                "drupal/core": "^9.3 || ^10"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "10.0.4",
+                    "datestamp": "1674227125",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "ravis",
+                    "homepage": "https://www.drupal.org/user/79351"
+                }
+            ],
+            "description": "<p>Tara is a light weight modern Drupal 8, 9, 10 theme by <a href=\"https://drupar.com/\" target=\"_blank\">Drupar.com</a></p><p><a href=\"https://drupar.com/theme/tara\" target=\"_blank\">Theme Homepage</a> | <a href=\"https://drupar.com/tara-theme-documentation\" target=\"_blank\">User Guide</a></p>",
+            "homepage": "https://www.drupal.org/project/tara",
+            "support": {
+                "source": "https://git.drupalcode.org/project/tara"
             }
         },
         {
