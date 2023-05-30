@@ -74,7 +74,8 @@ ol {
   font-size: 30px;
   font-weight: bold;
   color: #b22222;
-  margin-left: 200px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 .catering {
   background-image: url("./../content_images/catering.jpg");
@@ -85,19 +86,41 @@ ol {
   max-width: 1000px;
 }
 .catering-menu {
-  margin-left: 300px !important;
   margin-top: 15px !important;
 }
 .body-menu {
   font-family: Playball;
   font-size: 18px;
 }
+.menu-body {
+  line-height: 26px;
+}
+.menu-lunch,
+.menu-deluxe,
+.menu-asian_delight,
+.menu-american_continental,
+.menu-bbq,
+.menu-fiesta-mexicana,
+.menu-italian_touch,
+.menu-american_traditional,
+.menu-authentic_vietnamese,
+.menu-classic_delight,
+.menu-hawaii_luau,
+.boxed_meal_menu,
+.menu-engagement,
+.catering {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 0;
+  font-size: 14px;
+}
 .menu-lunch {
   background-image: url("./../content_images/lunch_bg1.jpg");
   background-color: #cccccc;
   border-radius: 20px;
   border: 1px solid #ccc;
-  font-size: 15px;
   max-width: 1000px;
 }
 .menu-deluxe {
@@ -105,7 +128,12 @@ ol {
   background-color: #cccccc;
   border-radius: 20px;
   border: 1px solid #ccc;
-  font-size: 14px;
+  max-width: 910px;
+  background-image: url("./../content_images/deluxe_bg1.jpg");
+  background-color: #cccccc;
+  border-radius: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #ccc;
   max-width: 910px;
 }
 .menu-asian_delight {
@@ -179,10 +207,17 @@ ol {
   margin: 0 auto;
   max-width: 910px;
 }
+.d-flex {
+  display: flex;
+}
+.col {
+  flex: 1;
+}
 .add-title {
-  font-size: 24px;
+  font-size: 20px;
   color: #666666;
   font-weight: bold;
+  padding: 10px 0;
 }
 .menu-title,
 .menu-title2 {
@@ -190,12 +225,6 @@ ol {
   color: #000080;
   font-weight: bold;
   font-size: 32px;
-}
-.menu-title {
-  margin-left: 180px;
-}
-.additional_section {
-  margin-left: 200px;
 }
 tbody tr:hover,
 tbody tr:focus {
@@ -265,6 +294,9 @@ table.node--type-menu tr {
   border-bottom: 1px solid #e6e4df !important;
 }
 
+.d-inline {
+  display: inline-block;
+}
 table.node--type-menu td {
   padding: 10px 12px !important;
 }
@@ -294,4 +326,87 @@ table.node--type-menu td {
     display: block;
     color: #fff !important;
   }
+}
+@media only screen and (max-width: 600px) {
+  .catering-title,
+  .deluxe-title,
+  .bbq-title,
+  .engagement-title,
+  .fiesta-title,
+  .italian-title,
+  .american-title,
+  .american-con-title,
+  .asian-title,
+  .authentic-title,
+  .classic-title,
+  .hawaii-title,
+  .menu-title {
+    font-size: 20px;
+  }
+  .menu-lunch,
+  .menu-deluxe,
+  .menu-asian_delight,
+  .menu-american_continental,
+  .menu-bbq,
+  .menu-fiesta-mexicana,
+  .menu-italian_touch,
+  .menu-american_traditional,
+  .menu-authentic_vietnamese,
+  .menu-classic_delight,
+  .menu-hawaii_luau,
+  .boxed_meal_menu,
+  .catering {
+    padding: 10px;
+  }
+  .menu-body {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Force table to not be like tables anymore */
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    margin: 0 0 1rem 0;
+  }
+
+  tr:nth-child(odd) {
+    background: #ccc;
+  }
+
+  td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 0;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+
 }
