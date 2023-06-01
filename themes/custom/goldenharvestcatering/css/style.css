@@ -300,6 +300,9 @@ table.node--type-menu tr {
 table.node--type-menu td {
   padding: 10px 12px !important;
 }
+.flexslider h2 {
+  margin-bottom: 5px !important;
+}
 @keyframes enter-animation {
   0% {
     transform: translateY(100px);
@@ -407,6 +410,4 @@ table.node--type-menu td {
     padding-right: 10px;
     white-space: nowrap;
   }
-
-
 }
