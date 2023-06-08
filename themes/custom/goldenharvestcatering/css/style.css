@@ -388,14 +388,9 @@ table.node--type-menu td {
     margin: 0 0 1rem 0;
   }
 
-  tr:nth-child(odd) {
-    background: #ccc;
-  }
-
   td {
     /* Behave  like a "row" */
     border: none;
-    border-bottom: 1px solid #eee;
     position: relative;
     padding-left: 50%;
   }

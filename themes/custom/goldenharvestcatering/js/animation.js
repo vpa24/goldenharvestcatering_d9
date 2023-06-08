@@ -6,7 +6,7 @@ function service_owl() {
     autoPlay: 3000,
     navigation: true,
     responsive: {
-      500: { items: 1, dots: true, navigation: true },
+      350: { items: 1, dots: true, navigation: true },
       700: { items: 2, dots: true, navigation: true },
       900: { items: 4, dots: true, navigation: true },
     },
