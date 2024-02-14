@@ -270,7 +270,7 @@ li a.active {
   color: #191970;
 }
 .region-header .brand a img {
-  height: 50px;
+  height: 125px;
 }
 .icon {
   display: flex !important;
@@ -327,7 +327,7 @@ table.node--type-menu td {
   .region-contact-email p a {
     padding: 0;
     display: block;
-    color: #fff !important;
+    color: #222 !important;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -405,4 +405,7 @@ table.node--type-menu td {
     padding-right: 10px;
     white-space: nowrap;
   }
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #333 !important;
 }
