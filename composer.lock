@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "563c5a3a3971a6b4691fcd9158f20322",
+    "content-hash": "cd354f3f66a336d1b1153a075c2c76ea",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1700,50 +1700,6 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/smtp",
                 "issues": "https://www.drupal.org/project/issues/smtp"
-            }
-        },
-        {
-            "name": "drupal/tara",
-            "version": "10.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/tara.git",
-                "reference": "10.0.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/tara-10.0.4.zip",
-                "reference": "10.0.4",
-                "shasum": "f291b60a7468fc9f9c69a727f517a21ad9ad4873"
-            },
-            "require": {
-                "drupal/core": "^9.3 || ^10"
-            },
-            "type": "drupal-theme",
-            "extra": {
-                "drupal": {
-                    "version": "10.0.4",
-                    "datestamp": "1674227125",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "ravis",
-                    "homepage": "https://www.drupal.org/user/79351"
-                }
-            ],
-            "description": "<p>Tara is a light weight modern Drupal 8, 9, 10 theme by <a href=\"https://drupar.com/\" target=\"_blank\">Drupar.com</a></p><p><a href=\"https://drupar.com/theme/tara\" target=\"_blank\">Theme Homepage</a> | <a href=\"https://drupar.com/tara-theme-documentation\" target=\"_blank\">User Guide</a></p>",
-            "homepage": "https://www.drupal.org/project/tara",
-            "support": {
-                "source": "https://git.drupalcode.org/project/tara"
             }
         },
         {
